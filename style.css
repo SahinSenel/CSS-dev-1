@@ -1,0 +1,35 @@
+.ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+}
+.class-li {
+    float: left;
+    list-style-type: none;
+}
+
+.class-li-a {
+
+    display: block;
+
+    padding:10px 36px;
+
+    background-color: #638cde;
+
+    color:rgb(13, 4, 4);
+
+    text-decoration:none; 
+}
+.class-li-a:hover:not(.active) {
+
+    background-color: rgb(142, 193, 239);
+}
+
+.active {
+
+    background-color: #f39c12;
+}
